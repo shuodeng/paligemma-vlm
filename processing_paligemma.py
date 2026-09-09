@@ -60,7 +60,7 @@ def process_images(
     images = [image.transpose(2, 0, 1) for image in images]
     return images
 
-class PaliGemaProcessor:
+class PaliGemmaProcessor:
 
     IMAGE_TOKEN = "<image>"
 
